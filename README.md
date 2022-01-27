@@ -1,6 +1,4 @@
- # ![Backend - Course 2020-2021][banner]
-
-> **Note**: Back-end has concluded for 2020/2021. Next year will be a new, changed, curriculum. Have a look at the [`/examples`](/examples) folder to see some results from this year. A big thank you to our all our students, student assistants and teachers!
+ # ![Backend - Course 2021-2022][banner]
 
 ## Table of Content
 
@@ -16,7 +14,7 @@
 
 ## Synopsis
 
-The course **Back-end** is given at [**@CMDA**][cmda] in 2021 between February 3 and June 26.
+The course **Back-end** is given at [**@CMDA**][cmda] in 2022 between February and June.
 
 *   **Course**: [Backend Development][course] (`2000BAD_16`)
 *   **Coordinator**: [Danny de Vries][dangit] - d.de.vries4@hva.nl
@@ -24,7 +22,7 @@ The course **Back-end** is given at [**@CMDA**][cmda] in 2021 between February 3
     [Danny de Vries][dangit] ([**@dandevri**][danweb]),
     [Sonja Rouwhorst][songit] ([**@rouws**][songit]) and [Ioannis Kapritsias][jangit] ([**@turiguilano**][janweb])
 *   **Credit**: 3 ECTS
-*   **Academic year**: 2020-2021
+*   **Academic year**: 2021-2022
 *   **Period**: Quarter 3 (spring)
 *   **University**: [Amsterdam University of Applied Sciences][university]
 *   **Programme**: [Communication and Multimedia Design][cmd] (full time bachelor CROHO: `34092`)
@@ -106,15 +104,15 @@ The below table breaks down the general time needed per week.
 
 | Week | Effort | Topic            | Activities                                             |
 | ---- | -----: | ---------------- | ------------------------------------------------------ |
-| 0    |  NaN   | getting started  | [getting started][gs]                                  |
-| 1    |  9:20h | node & express   | [lab][w1lab], [lecture][w1lec], [assignments][w1a]     |
-| 2    |  9:20h | query & template | [lab][w2lab], [lecture][w2lec], [assignments][w2a]     |
-| 3    |  9:20h | http             | [lab][w3lab], [lecture][w3lec], [assignments][w3a]     |
-| 4    |  9:20h | database         | [lab][w4lab], [lecture][w4lec], [assignments][w4a]     |
-| 5    |  NaN   | assessment 1     | [a1 (oral test)][grading]                              |
-| 6    | 13:20h | topic          | [lab][w6lab],  work on prototype                       |
-| 7    | 13:20h | topic        | [lab][w6lab],  work on prototype                       |
-| 8    |  NaN   | assessment 2     | [a2 (oral test)][grading]                              |  
+| 0    |  NaN   | getting started  | getting started                                 |
+| 1    |  9:20h | node & express   | lab     |
+| 2    |  9:20h | query & template | lab     |
+| 3    |  9:20h | http             | lab    |
+| 4    |  9:20h | database         | lab     |
+| 5    |  NaN   | assessment 1     | a1                              |
+| 6    | 13:20h | topic          | lab (work on team application)             |
+| 7    | 13:20h | topic        |   lab (work on team application)                      |
+| 8    |  NaN   | assessment 2     | a2                              |  
 
 > Check [`rooster.hva.nl`][class] for exact class dates
 
