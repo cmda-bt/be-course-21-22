@@ -19,8 +19,7 @@
 *  [Hand in](#hand-in)
 
 ## Slides
-* [Lab-2a][lab2a]
-* [Lab-2b][lab2b]
+* [Lab-2][lab2]
 
 ## Theory
 Before you start you'll probably want to read a bit about **express,** **routing,** and **templating**. We'll cover this in the lecture but make sure you fully understand these concept, the resources below can help.
@@ -36,7 +35,7 @@ Before you start you'll probably want to read a bit about **express,** **routing
 
 You can do these exercises before you start working on the assignments to get comfortable with the topics covered in class. The below are interactive self guided lesson modules from [freeCodeCamp](https://www.freecodecamp.org). If you feel a bit more adventurous you can try the [NodeSchool workshoppers](https://nodeschool.io).
 
-* [freeCodeCamp - Basic Node and Express (exercises)](https://www.freecodecamp.org/learn)
+* [freeCodeCamp - Basic Node and Express (exercises)](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 * [Express.js (workshopper)][workshopper]
 
 ## Assignments
@@ -128,7 +127,7 @@ Let us know what you thought of the homework, what part you spend a lot of time 
 [workshopper]: https://github.com/azat-co/expressworks
 [query]: https://www.youtube.com/watch?v=zDovsTG2a7g
 [template]: https://expressjs.com/en/guide/using-template-engines.html
-[issues]: https://github.com/cmda-bt/be-course-20-21/issues/new/choose
+[issues]: https://github.com/cmda-bt/be-course-21-22/issues/new/choose
 
 [intro-express]: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express
 [intro-routing]: http://expressjs.com/en/guide/routing.html
@@ -137,5 +136,4 @@ Let us know what you thought of the homework, what part you spend a lot of time 
 [videorequest]: https://www.youtube.com/watch?v=IS3HRyUXJX0
 [videoexpress]: https://www.youtube.com/watch?v=SRHQ3FM39Qg
 
-[lab2a]: /slides/be_20-21_lab-2a.pdf
-[lab2b]: /slides/be_20-21_lab-2b.pdf
+[lab2]: /slides/be_20-21_lab-2a.pdf
