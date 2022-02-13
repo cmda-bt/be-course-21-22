@@ -91,7 +91,7 @@ app.get('/movies/:movieId/:slug', (req, res) => {
 
 app.use(function (req, res) {
     console.error("Error 404: page nog found");
-    res.status(404).send( "Error 404: page not found");
+    res.status(404).render('404', {title: "Error 404: page not found"});
 });
 
 /*****************************************************
