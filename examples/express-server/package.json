@@ -23,6 +23,7 @@
     },
     "homepage": "https://github.com/cmda-bt/be-course-21-22/examples/express-server/#readme",
     "dependencies": {
+        "ejs": "^3.1.6",
         "express": "^4.17.2"
     },
     "devDependencies": {
