@@ -23,5 +23,8 @@
     "homepage": "https://github.com/cmda-bt/be-course-21-22/examples/express-server/#readme",
     "dependencies": {
         "express": "^4.17.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
     }
 }
