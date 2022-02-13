@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('includes/head.ejs') -%>
+</head>
+
+<body>
+
+    <%- include('includes/header.ejs') -%>
+
+    <div class="inner">
+
+        <h1><%= title %></h1>
+
+        <h2><%= movie.year %></h2>
+
+        <h2>Categories:</h2>
+        <ul>
+            <% movie.categories.forEach(function(category){ %>
+            <li><%= category %></li>
+            <% }) %>
+        </ul>
+
+        <p><%= movie.storyline %></p>
+
+    </div>
+
+    <%- include('includes/footer.ejs') -%>
+
+</body>
+
+</html>
