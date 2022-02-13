@@ -6,6 +6,7 @@ const express = require('express');
 
 const app = express();
 const port = 5555;
+const categories = ["action", "adventure", "sci-fi", "animation", "horror", "thriller", "fantasy", "mystery", "comedy", "family"];
 const movies = [
         {
                 "id": 1,
@@ -66,6 +67,8 @@ app.set('view engine', 'ejs');
  *   home - show movielist
  * GET /movies/:movieId/:slug   
  *   show movie details
+ * GET /movies/add              
+ *   show form to add movie
  ****************************************************/
 
 app.get('/',  (req, res) => {
@@ -83,6 +86,10 @@ app.get('/movies/:movieId/:slug', (req, res) => {
 
     // RENDER PAGE
     res.render('moviedetails', {title: `Moviedetails for ${movie.name}`, movie});
+});
+
+app.get('/movies/add', (req, res) => {
+  res.render('addmovie', {title: "Add a movie", categories});
 });
 
 /*****************************************************
