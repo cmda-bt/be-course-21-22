@@ -1,4 +1,6 @@
 const express = require('express');
+const slug = require('slug');
+const arrayify = require('array-back');
 
 /*****************************************************
  * Define some constants and variables
@@ -54,6 +56,8 @@ const movies = [
  * Middleware
  ****************************************************/
 app.use(express.static('public'));
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
 /*****************************************************
  * Set template engine
@@ -69,6 +73,8 @@ app.set('view engine', 'ejs');
  *   show movie details
  * GET /movies/add              
  *   show form to add movie
+ * POST /movies/add             
+ *   add movie and show movielist
  ****************************************************/
 
 app.get('/',  (req, res) => {
@@ -90,6 +96,22 @@ app.get('/movies/:movieId/:slug', (req, res) => {
 
 app.get('/movies/add', (req, res) => {
   res.render('addmovie', {title: "Add a movie", categories});
+});
+
+app.post('/movies/add', (req, res) => {
+    let movie = {
+        slug: slug(req.body.name),
+        name: req.body.name, 
+        year: req.body.year, 
+        categories: arrayify(req.body.categories), 
+        storyline: req.body.storyline
+    };
+    console.log("Adding movie: ", movie);
+    // ADD MOVIE 
+    movies.push(movie);
+    // RENDER PAGE
+    const title =  "Succesfully added the movie";
+    res.render('movielist', {title, movies})
 });
 
 /*****************************************************
