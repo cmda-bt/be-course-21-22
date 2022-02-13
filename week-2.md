@@ -136,4 +136,4 @@ Let us know what you thought of the homework, what part you spend a lot of time 
 [videorequest]: https://www.youtube.com/watch?v=IS3HRyUXJX0
 [videoexpress]: https://www.youtube.com/watch?v=SRHQ3FM39Qg
 
-[lab2]: /slides/be_20-21_lab-2a.pdf
+[lab2]: /slides/be_lab-2_21-22.pdf
