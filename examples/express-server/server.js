@@ -55,11 +55,13 @@ const movies = [
  * 
  * GET /                        
  *   home - show movielist
+ * GET /movies/:movieId/:slug   
+ *   show movie details
  ****************************************************/
 
 app.get('/',  (req, res) => {
     let doc = '<!doctype html>';
-    doc += '<title>Moviese</title>'
+    doc += '<title>Movies</title>'
     doc += '<h1>Movies</h1>'
 
     movies.forEach(movie => {
@@ -72,9 +74,30 @@ app.get('/',  (req, res) => {
             doc += `<li>${category}</li>`;
         });
         doc += "</ul>";
+        doc += `<a href="/movies/${movie.id}/${movie.slug}">More info</a>`;
         doc += "</section>";
     });
-    res.send(doc);});
+    res.send(doc);
+});
+
+app.get('/movies/:movieId/:slug', (req, res) => {
+    const id = req.params.movieId;
+    const movie = movies.find( element => element.id == id);
+    console.log(movie);
+    let doc = '<!doctype html>';
+    doc += `<title>Movie details for ${movie.name}</title>`;
+    doc += `<h1>${movie.name}</h1>`;
+    doc += `<h2>${movie.year}</h2>`;
+    doc += "<h2>Categories</h2>";
+    doc += "<ul>";
+    movie.categories.forEach( category => {
+        doc += `<li>${category}</li>`;
+    })
+    doc += "</ul>";
+    doc += `<p>${movie.storyline}</p>`;
+    res.send(doc);
+});
+
 
 /*****************************************************
  * Start webserver
