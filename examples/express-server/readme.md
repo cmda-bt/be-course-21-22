@@ -9,14 +9,14 @@
 
 ## Install
 
-[npm][]:
 
 ```bash
-git clone git@github.com:rouws/be-examples-21-22.git
-cd be-examples-21-22/examples/express-server
+git clone https://github.com/cmda-bt/be-course-21-22.git
+cd be-course-21-22/examples/express-server
 npm install
 npm start
 ```
+
 ## Changes
 
 The following commits show how this example was created:
