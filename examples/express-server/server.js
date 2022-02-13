@@ -55,6 +55,11 @@ const movies = [
 app.use(express.static('public'));
 
 /*****************************************************
+ * Set template engine
+ ****************************************************/
+app.set('view engine', 'ejs');
+
+/*****************************************************
  * Routes
  * 
  * GET /                        
@@ -64,24 +69,9 @@ app.use(express.static('public'));
  ****************************************************/
 
 app.get('/',  (req, res) => {
-    let doc = '<!doctype html>';
-    doc += '<title>Movies</title>'
-    doc += '<h1>Movies</h1>'
-
-    movies.forEach(movie => {
-        doc += "<section>";
-        doc += `<h2>${movie.name}</h2>`;
-        doc += `<h3>${movie.year}</h3>`;
-        doc += "<h3>Categories:</h3>";
-        doc += "<ul>";
-        movie.categories.forEach(category => {
-            doc += `<li>${category}</li>`;
-        });
-        doc += "</ul>";
-        doc += `<a href="/movies/${movie.id}/${movie.slug}">More info</a>`;
-        doc += "</section>";
-    });
-    res.send(doc);
+    // RENDER PAGE
+    const title  = (movies.length == 0) ? "No movies were found" : "Movies";
+    res.render('movielist', {title, movies});
 });
 
 app.get('/movies/:movieId/:slug', (req, res) => {
