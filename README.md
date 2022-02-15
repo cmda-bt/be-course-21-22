@@ -126,12 +126,10 @@ The below table breaks down the general time needed per week.
 
 
 ```js
-if (!a1 && !a2) {
-  grade = 'GR'
-} else if (a1 < 5.5 || a2 < 5.5) {
-  grade = 1
-} else {
-  grade = (a1 * 0.6) + (a2 * 0.4)
+const getGrade = (a1, a2, a1Weight = 0.6, a2Weight = 0.4, passGrade = 5.5) => {
+  if (!a1 || !a2) return 'GR'
+  if (a1 < passGrade || a2 < passGrade) return 1
+  return a1 * a1Weight + a2 * a2Weight
 }
 ```
 
