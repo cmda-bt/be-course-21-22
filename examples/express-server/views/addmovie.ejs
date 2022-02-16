@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('includes/head.ejs') -%>
+</head>
+
+<body>
+
+    <%- include('includes/header.ejs') -%>
+
+    <div class="inner">
+
+        <h1><%= title %></h1>
+
+
+        <form action="/movies/add" method="post">
+            <div>
+                <label for="name">Name:</label><br>
+                <input id="name" type="text" name="name" required>
+            </div>
+            <div>
+                <label for="year">Year:</label><br>
+                <input id="year" name="year" type="number" min="2017" max="2022" step="1" value="2022" />
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Categories:</legend>
+                    <% categories.forEach(function(category){ %>
+                    <input type="checkbox" name="categories" value="<%= category %>" id="<%= category %>">
+                    <label for="<%= category %>"><%= category %></label><br>
+                    <% }) %>
+                </fieldset>
+            </div>
+            <div>
+                <label for="storyline">Storyline</label><br>
+                <textarea name="storyline" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button>Add</button>
+        </form>
+    </div>
+
+    <%- include('includes/footer.ejs') -%>
+
+</body>
+
+</html>
