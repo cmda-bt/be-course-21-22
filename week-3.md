@@ -17,8 +17,7 @@
 *  [Hand in](#hand-in)
 
 ## Slides
-* [Lab-3a][lab3a]
-* [Lab-3b][lab3b]
+* [Lab-3][lab3]
 
 ## Theory
 
@@ -35,7 +34,7 @@ Before you start you'll probably want to read a bit about **HTTP,** **request me
 
 You can do these exercises before you start working on the assignments to get comfortable with the topics covered in class. The below are interactive self guided lesson modules from [freeCodeCamp](https://www.freecodecamp.org). 
 
-* [freeCodeCamp - Basic Node and Express (exercises)](https://www.freecodecamp.org/learn)
+* [freeCodeCamp - Basic Node and Express (exercises)](https://www.freecodecamp.org/learn/back-end-development-and-apis/#basic-node-and-express)
 
 ## Assignments
 
@@ -130,7 +129,7 @@ When you create your Cluster in Atlas you might need to [Whitelist your IP](http
 **Additional resources**
 
 - [Get Started with Atlas](https://docs.atlas.mongodb.com/getting-started)
-- [Hiding API Keys with Environment Variables (dotenv)](env)
+- [Hiding API Keys with Environment Variables (dotenv)](https://thecodingtrain.com/Courses/data-and-apis/3.4-hiding-api-key.html)
 
 ## Hand-in
 
@@ -156,12 +155,11 @@ Let us know what you thought of the homework, what part you spend a lot of time 
 [workshopper]: https://github.com/azat-co/expressworks
 [query]: https://www.youtube.com/watch?v=zDovsTG2a7g
 [template]: https://expressjs.com/en/guide/using-template-engines.html
-[issues]: https://github.com/cmda-bt/be-course-18-19/issues/new/choose
+[issues]: https://github.com/cmda-bt/be-course-21-22/issues/new/choose
 
 [body]: https://www.npmjs.com/package/body-parser
 [multer]: https://www.npmjs.com/package/multer#readme
 [videorequest]: https://www.youtube.com/watch?v=IS3HRyUXJX0
 [env]: https://www.youtube.com/watch?v=17UVejOw3zA
 
-[lab3a]: /slides/be_20-21_lab-3a.pdf
-[lab3b]: /slides/be_20-21_lab-3b.pdf
+[lab3]: /slides/be_21-22_lab-3.pdf
