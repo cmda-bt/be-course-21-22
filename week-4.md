@@ -20,8 +20,7 @@
 
 ## Slides
 
-- [Lecture-4][lab4a]
-- [Lab-4][lab4b]
+- [Lab-4][lab4]
 
 ## Theory
 
@@ -123,5 +122,4 @@ Let us know what you thought of the homework, what part you spend a lot of time 
 [intro-database]: https://dev.to/maludecks/modern-databases-their-differences-294a
 [intro-documents]: https://docs.mongodb.com/manual/core/document/
 
-[lab4a]: /slides/be_20-21_lab-4a.pdf
-[lab4b]: /slides/be_20-21_lab-4b.pdf
+[lab4]: /slides/be_lab-4_21-22.pdf
