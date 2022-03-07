@@ -39,11 +39,11 @@ app.set('view engine', 'ejs');
  *   add movie and show movielist
  ****************************************************/
 
-app.get('/',  (req, res) => {
+app.get('/', async (req, res) => {
     // GET LIST OF MOVIES
-    // TODO
-    console.log("TODO: get movie list from DB")
-    const movies = [];
+    const query = {};
+    const options = {sort: {year: -1, name: 1}}
+    const movies = await db.collection('movies').find(query, options).toArray();
 
     // RENDER PAGE
     const title  = (movies.length == 0) ? "No movies were found" : "Movies";
