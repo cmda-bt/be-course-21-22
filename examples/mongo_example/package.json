@@ -1,0 +1,37 @@
+{
+    "name": "mongo example",
+    "version": "1.0.0",
+    "description": "example of express webserver for movielist using mongo",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cmda-bt/be-course-21-22.git"
+    },
+    "keywords": [
+        "express",
+        "node",
+        "ejs",
+        "mongo"
+    ],
+    "author": "Sonja Rouwhorst",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cmda-bt/be-course-21-22.git/issues"
+    },
+    "homepage": "https://github.com/cmda-bt/be-course-21-22.git/examples/mongo_example/#readme",
+    "dependencies": {
+        "array-back": "^6.2.2",
+        "dotenv": "^16.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.2",
+        "mongodb": "^4.4.1",
+        "slug": "^5.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

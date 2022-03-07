@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('includes/head'); -%>
+</head>
+
+<body>
+    <%- include('includes/header'); -%>
+
+    <div class="inner">
+
+        <form action="/" method="get">
+            <fieldset>
+                <legend>Years:</legend>
+                <% years.forEach(function(year){ %>
+                <input type="checkbox" name="years" value=<%= year %> id="<%= year %>"
+                    <% if (selectedYears.includes(year)) { %> checked="checked" <% } %>>
+                <label for="<%= year %>"><%= year %></label><br>
+                <% }) %>
+            </fieldset>
+            <fieldset>
+                <legend>Categories:</legend>
+                <% categories.forEach(function(category){ %>
+                <input type="radio" name="categories" value="<%= category %>" id="<%= category %>"
+                    <% if (selectedCategories.includes(category)) { %> checked="checked" <% } %>>
+                <label for="<%= category %>"><%= category %></label><br>
+                <% }) %>
+            </fieldset>
+            <button class="button">Filter</button>
+        </form>
+
+        <main>
+            <h1><%= title %></h1>
+
+            <% movies.forEach(function(movie){ %>
+            <section>
+                <h2><%= movie.name %></h2>
+                <h3><%= movie.year %></h3>
+                <h3>Categories: </h3>
+                <ul>
+                    <% movie.categories.forEach(function(category){ %>
+                    <li><%= category %></li>
+                    <% }) %>
+                </ul>
+                <p><a href="/movies/<%= movie._id %>/<%= movie.slug %>">More info</a></p>
+            </section>
+            <% }) %>
+
+        </main>
+
+    </div>
+    <%- include('includes/footer'); -%>
+</body>
+
+</html>
