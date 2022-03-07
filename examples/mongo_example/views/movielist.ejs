@@ -10,6 +10,26 @@
 
     <div class="inner">
 
+        <form action="/" method="get">
+            <fieldset>
+                <legend>Years:</legend>
+                <% years.forEach(function(year){ %>
+                <input type="checkbox" name="years" value=<%= year %> id="<%= year %>"
+                    <% if (selectedYears.includes(year)) { %> checked="checked" <% } %>>
+                <label for="<%= year %>"><%= year %></label><br>
+                <% }) %>
+            </fieldset>
+            <fieldset>
+                <legend>Categories:</legend>
+                <% categories.forEach(function(category){ %>
+                <input type="radio" name="categories" value="<%= category %>" id="<%= category %>"
+                    <% if (selectedCategories.includes(category)) { %> checked="checked" <% } %>>
+                <label for="<%= category %>"><%= category %></label><br>
+                <% }) %>
+            </fieldset>
+            <button class="button">Filter</button>
+        </form>
+
         <main>
             <h1><%= title %></h1>
 
