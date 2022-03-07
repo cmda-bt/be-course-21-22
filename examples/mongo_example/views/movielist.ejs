@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('includes/head'); -%>
+</head>
+
+<body>
+    <%- include('includes/header'); -%>
+
+    <div class="inner">
+
+        <main>
+            <h1><%= title %></h1>
+
+            <% movies.forEach(function(movie){ %>
+            <section>
+                <h2><%= movie.name %></h2>
+                <h3><%= movie.year %></h3>
+                <h3>Categories: </h3>
+                <ul>
+                    <% movie.categories.forEach(function(category){ %>
+                    <li><%= category %></li>
+                    <% }) %>
+                </ul>
+                <p><a href="/movies/<%= movie.id %>/<%= movie.slug %>">More info</a></p>
+            </section>
+            <% }) %>
+
+        </main>
+
+    </div>
+    <%- include('includes/footer'); -%>
+</body>
+
+</html>

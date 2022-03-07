@@ -1,0 +1,80 @@
+html *{
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin: 0 0 1em 0;
+}
+nav {
+    background: #ddd;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+}
+nav li {
+    margin: 0;
+    padding: 1em 3em;
+    border-right: 1px solid white;
+}
+nav li:last-child {
+    border-right: none;
+}
+a {
+    text-decoration: none;
+    color: cadetblue
+}
+a:hover {
+    text-decoration: underline;
+}
+form > * {
+    margin: 1em;
+}
+button {
+    background: cadetblue;
+    min-width: 20em;
+    padding: .5em;
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+input[type=text], input[type=number], textarea {
+    border: 1px solid gray;
+    min-width: 36em;
+    padding: .3em;
+}
+fieldset {
+    max-width: 30em;
+    border: 1px solid gray;
+}
+legend{
+    font-weight: bold;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    background: cadetblue;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+.inner {
+    margin-bottom: 4em;
+}
+.columns {
+    display: flex;
+}
+.columns > * {
+    padding: 1em;
+}
