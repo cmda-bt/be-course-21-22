@@ -50,13 +50,11 @@ app.get('/', async (req, res) => {
     res.render('movielist', {title, movies});
 });
 
-app.get('/movies/:movieId/:slug', (req, res) => {
+app.get('/movies/:movieId/:slug', async (req, res) => {
 
     // FIND MOVIE
-    const id = req.params.movieId;
-    // TODO
-    console.log("TODO: get movie from DB");
-    const movie = {};
+    const query = { _id: ObjectId(req.params.movieId)};
+    const movie = await db.collection('movies').findOne(query);
 
     // RENDER PAGE
     const title = `Moviedetails for ${movie.name}`;
