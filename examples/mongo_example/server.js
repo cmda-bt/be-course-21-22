@@ -1,6 +1,9 @@
 const express = require('express');
 const slug = require('slug');
 const arrayify = require('array-back');
+const dotenv = require('dotenv').config();
+
+console.log(process.env.TESTVAR)
 
 /*****************************************************
  * Define some constants and variables
