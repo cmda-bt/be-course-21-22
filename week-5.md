@@ -46,7 +46,6 @@ If you have any question you can reach the student-assistants and teachers on MS
 Based on your repository, source code and local version you show what feature you've created for back-end. The idea is not to present your feature, **a teacher will look through the code and ask questions**. By answering questions you demonstrate sufficient knowledge of our goals. _This is an individual test, so they will be conducted between one teacher and one student._
 
 → [Read more about Assessment 1](/grading/a1.md)  
-→ [Go to the scheduler on Brightspace][scheduler]
 
 ## Hand-in
 Make sure you hand-in your work in the assignments `a1` slot on Brightspace.
@@ -62,6 +61,6 @@ Make sure you hand-in your work in the assignments `a1` slot on Brightspace.
 [inspiration-author]: https://github.com/samyk
 
 [rubric]: https://dlo.mijnhva.nl/d2l/le/content/32096/viewContent/251126/View
-[review]: https://teams.microsoft.com/l/file/9C672C0B-44E6-43EF-85B5-71090B22164E?tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7&fileType=docx&objectUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU_Blok_Tech_%2FShared%20Documents%2FBack-end%2Fa1-peer-review_student.docx&baseUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU_Blok_Tech_&serviceName=teams&threadId=19:b52e51c181034209bb2bf9c0d3be28a5@thread.tacv2&groupId=c1b68fb7-d0f6-49a0-86ed-f38f960578bc
+[review]: https://icthva.sharepoint.com/:w:/r/sites/FDMCI_EDU_CMD_Blok_Tech_CMD_2122/Gedeelde%20documenten/Back-end/be%20a1-peer-review_student.docx?d=w4abbe52e218849509e5603bf8b64a470&csf=1&web=1&e=FM1spj
 [scheduler]: https://dlo.mijnhva.nl/d2l/le/schedule/lim/instructor/192551/home
 [assignments]: https://dlo.mijnhva.nl/d2l/lms/dropbox/admin/folders_manage.d2l?ou=192551
