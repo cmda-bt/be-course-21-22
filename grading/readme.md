@@ -55,7 +55,7 @@ This is an *oral test* where you **present your prototype with your team**. You 
 ## Plagiarism
 
 Plagiarism is presenting someone else’s work as though it were your own. We report it to our assessment committee
-([examencommissie](https://moodle.cmd.hva.nl/mod/page/view.php?id=1738) in Dutch). For more on plagiarism read our [_statement of academic integrity_](https://github.com/cmda-bt/be-course-20-21/blob/main/docs/plagiarism.md).
+([examencommissie](https://moodle.cmd.hva.nl/mod/page/view.php?id=1738) in Dutch). For more on plagiarism read our [_statement of academic integrity_](https://github.com/cmda-bt/be-course-21-22/blob/main/docs/plagiarism.md).
 
 
 ## Publishing
@@ -66,7 +66,7 @@ Grades will be published and communicated in _Brightspace_ and/or _MS Teams_. We
 
 > After the first oral test you can request **viewing time** for additional feedback, this can be useful for a resit. Feel free to [contact your lecturer trough _MS Teams_](/readme#synopsis) if you want to do so.
 
-[a1]: https://github.com/cmda-bt/be-course-20-21/blob/master/grading/a1.md
-[a2]: https://github.com/cmda-bt/be-course-20-21/blob/master/grading/a2.md
+[a1]: https://github.com/cmda-bt/be-course-21-22/blob/main/grading/a1.md
+[a2]: https://github.com/cmda-bt/be-course-21-22/blob/main/grading/a2.md
 [banner]: https://cmda-bt.github.io/be-course-18-19/assets/banner-grading.svg
 [grading]: /grading/readme.md

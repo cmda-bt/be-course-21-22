@@ -53,12 +53,6 @@ This week you'll pick one topic (minimum, but you can do multiple) to work on fo
 
 > Something not on the list? These are topics we as teachers came up with but if you always wanted to learn something that's not on the list, pitch it to your teacher!
 
-## Hand-in
-
-Let your teacher know what you are going to work on during the team assessment and what topic(s) you picked by opening an issue on our [GitHub issue tracker][issues]. Fill in the issue template of `topic` with the correct information.
-
-Your assignment will be reviewed by teachers and student assistants, so expect people to read it and be ready for tips and tops!
-
 [quote-author]: https://twitter.com/iamdevloper/status/1108993784132587520
 [inspiration-cover]: assets/images/deploy-tweet.png
 [inspiration-link]: https://twitter.com/cassidoo/status/1154809678607446016?lang=en

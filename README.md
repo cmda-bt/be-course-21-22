@@ -120,8 +120,8 @@ The below table breaks down the general time needed per week.
 
 | Task                                |   Weight |
 | ----------------------------------  | -------: |
-| [Assessment 1][grading] (individual)|      60% |
-| [Assessment 2][grading] (team)      |      40% |
+| [Assessment 1][gradinga1] (individual)|      60% |
+| [Assessment 2][gradinga2] (team)      |      40% |
 | **Total**                           | **100%** |
 
 
@@ -156,7 +156,7 @@ We are dedicated to provide you with a learning environment that is _rigorous, r
 
 ## License
 
-[MIT][] © [Danny de Vries][dangit], docs and images are [CC-BY-4.0][].
+[MIT](/license) © [Danny de Vries][dangit], docs and images are [CC-BY-4.0](license).
 
 [banner]: https://cmda-bt.github.io/be-course-21-22/assets/banner.svg
 [cmd]: https://www.cmd-amsterdam.nl/english/
@@ -171,15 +171,16 @@ We are dedicated to provide you with a learning environment that is _rigorous, r
 [http]: https://tools.ietf.org/html/rfc2068
 [minor]: https://cmda.github.io/minor-everything-web/
 [track]: https://github.com/cmda-tt
-[gh]: https://github.com/cmda-be/course-18-19
+[gh]: https://github.com/cmda-bt
 [examples]: /examples
 [teams]: http://teams.microsoft.com
-[brightspace]: https://dlo.mijnhva.nl/d2l/home/192551
+[brightspace]: https://dlo.mijnhva.nl/d2l/home/324361
 [examples]: examples
 [stackoverflow]: https://stackoverflow.com
 [duckduckgo]: https://duckduckgo.com
 [synopsis]: #synopsis
-[grading]: /grading
+[gradinga1]: /grading/a1.md
+[gradinga2]: /grading/a2.md
 [bachelor]: https://www.cmd-amsterdam.nl/english/
 [faculty]: https://www.amsterdamuas.com/faculty/fdmci/faculty-of-digital-media-and-creative-industries.html
 [university]: https://www.amsterdamuas.com
