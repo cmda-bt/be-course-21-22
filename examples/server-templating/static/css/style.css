@@ -1,0 +1,11 @@
+body {
+  background: black;
+  color: yellow;
+  font-family: sans-serif;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
