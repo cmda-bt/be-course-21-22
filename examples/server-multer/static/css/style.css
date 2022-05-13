@@ -1,0 +1,25 @@
+body {
+  background: black;
+  color: #50ff51;
+  font-family: sans-serif;
+  width: 50vw;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin-top: 1em;
+}
+
+input {
+  padding: 1em;
+}
