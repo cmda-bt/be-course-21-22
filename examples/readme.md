@@ -12,12 +12,12 @@ labs.
 ## MongoDB Server
 
 *   ** WORK IN PROGRESS **
-*   **Example**: [`mongodb-server`][mongodb-server]
+*   **Example**: [`mongo_example`][mongo_expample]
 *   **Topics**: MongoDB, Database, Express, dotenv, MongoDB (find, findOne, insertOne,
     deleteOne)
 
 
 [express-server]: express-server#readme
 
-[mongodb-server]: mongodb-server#readme
+[mongo_expample]: mongo_example#readme
 
